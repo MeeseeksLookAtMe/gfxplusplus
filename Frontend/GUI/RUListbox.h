@@ -71,7 +71,7 @@ public:
 
 	// render
 	virtual void updateBackground(gfxpp*);
-	void updateLabels();
+	virtual void updateLabels();
 	virtual std::string getType() const;
 	virtual void unhover();
 };
